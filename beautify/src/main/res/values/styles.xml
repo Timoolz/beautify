@@ -18,20 +18,20 @@
 <resources>
 
 
-    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
-        <item name="colorDetail">@color/color_detail_text</item>
+        <item name="colorControlNormal">@color/color_detail_text</item>
     </style>
 
 
-    <style name="ToolbarDetail" parent="AppTheme">
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
         <item name="android:textColorSecondary">@color/color_detail_text</item>
     </style>
 
     <style name="AppTheme.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
     </style>
 
 </resources>

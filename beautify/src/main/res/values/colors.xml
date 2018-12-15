@@ -19,16 +19,16 @@
     <color name="photo_placeholder">#ccc</color>
 
 
-    <color name="color_primary">#57c13d</color>
-    <color name="color_primary_dark">#4c833f</color>
-    <color name="color_primary_light">#84d471</color>
-    <color name="color_accent">#d3d430</color>
+    <color name="color_primary">#3BBEA2</color>
+    <color name="color_primary_dark">#309683</color>
+    <color name="color_primary_light">#80D7C4</color>
+    <color name="color_accent">#FF7385</color>
 
-    <color name="color_primary_text">#000000</color>
-    <color name="color_secondary_text">#70786e</color>
+    <color name="color_primary_text">#364655</color>
+    <color name="color_secondary_text">#7D8388</color>
     <color name="color_detail_text">#FFFFFF</color>
 
-    <color name="ltgray">#ffe0e0e0</color>
+    <color name="ltgray">#ECF0F1</color>
 
 
 
