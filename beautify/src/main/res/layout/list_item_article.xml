@@ -34,7 +34,7 @@
             android:paddingLeft="16dp"
             android:paddingTop="24dp"
             android:paddingRight="16dp"
-            android:paddingBottom="24dp"
+            android:paddingBottom="10dp"
             android:textColor="@color/color_primary_text"
             android:ellipsize="end"
             android:textSize="24sp"
