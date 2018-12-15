@@ -21,30 +21,7 @@
         app:expandedTitleMarginStart="48dp"
         app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-    <!--<FrameLayout-->
-    <!--android:id="@+id/photo_container"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:background="@color/photo_placeholder">-->
-    <!--&lt;!&ndash;suppress AndroidLintContentDescription &ndash;&gt;-->
 
-
-    <!--<View-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="112dp"-->
-    <!--android:background="@drawable/photo_background_protection" />-->
-
-    <!--</FrameLayout>-->
-
-    <!--<com.example.beautify.ui.MaxWidthLinearLayout-->
-    <!--android:orientation="vertical"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center_horizontal"-->
-    <!--android:maxWidth="@dimen/detail_card_max_width"-->
-    <!--android:background="#fff"-->
-    <!--android:elevation="2dp"-->
-    <!--android:layout_marginTop="@dimen/detail_card_top_margin">-->
 
     <FrameLayout
         android:id="@+id/meta_bar"
@@ -120,6 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/detail_inner_horiz_margin"
+        android:layout_marginTop="@dimen/detail_body_top_margin"
         android:layout_marginRight="@dimen/detail_inner_horiz_margin"
         android:divider="@null"
         android:dividerHeight="0dp"

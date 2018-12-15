@@ -19,12 +19,12 @@
     <color name="photo_placeholder">#ccc</color>
 
 
-    <color name="color_primary">#3BBEA2</color>
-    <color name="color_primary_dark">#309683</color>
-    <color name="color_primary_light">#80D7C4</color>
-    <color name="color_accent">#FF7385</color>
+    <color name="color_primary">#019592</color>
+    <color name="color_primary_dark">#017374</color>
+    <color name="color_primary_light">#00b3A6</color>
+    <color name="color_accent">#FF0266</color>
 
-    <color name="color_primary_text">#364655</color>
+    <color name="color_primary_text">#344650</color>
     <color name="color_secondary_text">#7D8388</color>
     <color name="color_detail_text">#FFFFFF</color>
 
