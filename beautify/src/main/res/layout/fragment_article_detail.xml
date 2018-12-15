@@ -46,10 +46,10 @@
     <!--android:elevation="2dp"-->
     <!--android:layout_marginTop="@dimen/detail_card_top_margin">-->
 
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/meta_bar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/detail_photo_height"
         android:layout_gravity="bottom"
         android:background="@color/color_primary"
         android:orientation="vertical">
@@ -60,33 +60,47 @@
             android:layout_height="@dimen/detail_photo_height"
             android:scaleType="centerCrop"
             app:layout_collapseMode="pin" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/scrim"
+            />
 
-        <TextView
-            android:id="@+id/article_title"
-            style="?android:attr/textAppearanceLarge"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:lineSpacingMultiplier="0.9"
-            android:paddingTop="@dimen/detail_metabar_title_bottom_padding"
-            android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-            android:paddingLeft="@dimen/detail_metabar_vert_padding"
-            android:paddingRight="@dimen/detail_metabar_vert_padding"
-            android:textColor="@color/color_detail_text"
-            android:textSize="@dimen/detail_title_text_size"
-            android:textStyle="bold" />
+            android:orientation="vertical"
+            android:layout_gravity="bottom">
 
-        <TextView
-            android:id="@+id/article_byline"
-            style="?android:attr/textAppearanceSmall"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/detail_metabar_vert_padding"
-            android:paddingRight="@dimen/detail_metabar_vert_padding"
-            android:paddingBottom="8dp"
-            android:textColor="@color/color_detail_text"
-            android:textSize="@dimen/detail_byline_text_size" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/article_title"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:lineSpacingMultiplier="0.9"
+                android:paddingTop="@dimen/detail_metabar_title_bottom_padding"
+                android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
+                android:paddingLeft="@dimen/detail_metabar_vert_padding"
+                android:paddingRight="@dimen/detail_metabar_vert_padding"
+                android:textColor="@color/color_detail_text"
+                android:textSize="@dimen/detail_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article_byline"
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/detail_metabar_vert_padding"
+                android:paddingRight="@dimen/detail_metabar_vert_padding"
+                android:paddingBottom="8dp"
+                android:textColor="@color/color_detail_text"
+                android:textSize="@dimen/detail_byline_text_size" />
+
+        </LinearLayout>
+
+    </FrameLayout>
 
 
 
